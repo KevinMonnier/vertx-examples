@@ -1,0 +1,32 @@
+= Vert.x examples
+
+image:https://img.shields.io/badge/vert.x-4.5.4-purple.svg[link="https://vertx.io"]
+
+Bunch of examples used to illustrate features of Eclispe Vert.x. To keep it simple, each class file has a main function to run the corresponding example.
+
+== Building
+
+To launch your tests:
+```
+./mvnw clean test
+```
+
+To package your application:
+```
+./mvnw clean package
+```
+
+To run your application:
+```
+./mvnw clean compile exec:java
+```
+
+== Help
+
+* https://vertx.io/docs/[Vert.x Documentation]
+* https://stackoverflow.com/questions/tagged/vert.x?sort=newest&pageSize=15[Vert.x Stack Overflow]
+* https://groups.google.com/forum/?fromgroups#!forum/vertx[Vert.x User Group]
+* https://discord.gg/6ry7aqPWXy[Vert.x Discord]
+* https://gitter.im/eclipse-vertx/vertx-users[Vert.x Gitter]
+
+
